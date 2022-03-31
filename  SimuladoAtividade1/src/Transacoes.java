@@ -7,8 +7,8 @@ public class Transacoes {
 
 
        //Métodos da classe
-       public void visualizarSaldo(Conta ver){
-        System.out.println("Nome do usuario " + ver.nome+ " - Saldo: R$" + ver.saldo);
+       public String visualizarSaldo(Conta ver){
+        return("Nome do usuario " + ver.nome+ " - Saldo: R$" + ver.saldo);
     }
 
     public String NotaRecebe(Conta ver, double valor){
